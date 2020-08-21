@@ -6,13 +6,12 @@ Trabalho desenvolvido durante a disciplina de BD1
 ### 1. COMPONENTES<br>
 Integrantes do grupo<br>
 Kelvin Lehrback Guilherme<br>
-...<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
-Este documento contém a especificação do projeto do banco de dados <nome do projeto> 
+Este documento contém a especificação do projeto do banco de dados Provisões de Emergência 
 <br>e motivação da escolha realizada. <br>
 
-> A empresa "Devcom Projetos" visa colaborar com desenvolvimento de projetos para uma sociedade melhor. Sabendo-se dos desafios para gerenciar projetos dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos e projetos em um mesmo local, ficamos motivados com o desenvolvimento deste sistema. O Sistema "Devcom" tem como objetivo gerenciar todas as informações ao desenvolvimento das atividades de projetos em diversas localidades do país. Para realizar suas operações adequadamente e empresa necessita que sistema que armazene informações relativas aos Projetos, Departamentos e Empregados, além de também armazenar dados sobre  Dependentes e Históricos de Salário dos empregados. O sistema deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa em questão.
+> O sistema “Provisões de emergência” tem como objetivo contribuir com o  planejamento financeiro de famílias e ONGS, gerando relatórios de preços e/ou dos produtos realmente essenciais para cada realidade num determinado intervalo de tempo. É necessário o cadastro da quantidade de pessoas. Pessoas são cadastradas por meio do nome, CPF, data de nascimento, grupo familiar a qual pertence e o informe se necessitam ou não de medicamentos, se necessário medicamentos, informar o(s) nome(s) do(s) medicamento(s), a dose diária de cada um e o preço médio (se conhecido o preço) ou um previsto. É necessário também informar a quantidade de comida que as pessoas consomem por dia, bem como quais alimentos essenciais para a preparação das respectivas refeições diárias (arroz, feijão, carne, verduras) e seus respectivos preços (médio ou previsto). Há ainda os gastos com produtos de limpeza, seja ele geral(desinfetantes, sabão para roupas etc) ou pessoal (sabonetes, pasta de dente, etc), informar também o preço médio ou previsto. Para a compra dos produtos, é necessário conhecer os fornecedores. Fornecedores possuem nome e quais produtos eles entregam, podendo ter o(s) produto(s) em estoque ou não. O objetivo inicial do sistema é gerar um relatório listando todos os bens de consumo para a sobrevivência num determinado intervalo de tempo, bem como os seus respectivos preços.
  
 
 ### 3.MINI-MUNDO<br>
