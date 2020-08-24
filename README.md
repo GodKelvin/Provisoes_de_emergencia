@@ -124,11 +124,7 @@ add foreign key(fk_cod_tipo_produto) references TIPO_PRODUTO(cod_tipo_produto);
         
        
 ### 8	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-        a) inclusão das instruções de inserção dos dados nas tabelas criadas pelo script de modelo físico
-        (Drop para exclusão de tabelas + create definição de para tabelas e estruturas de dados + insert para dados a serem inseridos)
-        b) Criar um novo banco de dados para testar a restauracao 
-        (em caso de falha na restauração o grupo não pontuará neste quesito)
-        c) formato .SQL
+[Script de exclusão, criação da estrutura e inserção dos dados (arquivo SQL)](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/arquivos/Insert_aplicado_nas_tabelas_bd.sql)
 
 
 ### 9	TABELAS E PRINCIPAIS CONSULTAS<br>
