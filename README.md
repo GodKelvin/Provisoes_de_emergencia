@@ -60,6 +60,42 @@ O sistema “Provisões de emergência” tem como objetivo contribuir com o  pl
     EXEMPLO:
     CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
     CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
+GRUPO_FAMILIAR: Tabela que armazena as informações referentes ao grupo familiar que determinada pessoa pertence.
+cod_grupo-familiar: Campo do tipo inteiro que é utilizado para identificar determinado grupo familiar que a pessoa está inserida.
+nome_grupo_familiar: Campo do tipo string que nomeia determinado grupo familiar.
+
+PESSOA: Tabela que armazena as informações referentes à pessoa.
+cod_pessoa: Campo do tipo inteiro que identifica determinada pessoa.
+fk_cod_grupo_familiar: Chave estrangeira do tipo inteiro que identifica à qual grupo familiar essa pessoa está inserida.
+nome_pessoa: Campo do tipo varchar utilizado para armazenar o nome de cada pessoa.
+cpf: Campo do tipo varchar que armazena o número de cadastro de pessoa física de cada pessoa.
+data_nascimento: Campo do tipo date que armazena a data de nascimento da pessoa.
+
+PESSOA_CONSOME: Tabela que armazena as informações referentes ao consumo de cada pessoa.
+cod_pessoa: Campo do tipo inteiro que identifica a tupla contendo as informações de consumo de cada pessoa.
+fk_cod_produto: Chave estrangeira do tipo inteiro que identifca qual produto a pessoa está consumindo.
+fk_cod_pessoa: Chave estrangeira do tipo inteiro que identifica qual pessoa está consumindo determinado produto.
+quantidade_produto: Campo do tipo float que identificar o quanto aquela pessoa está consumindo determinado produto.
+
+FORNECEDOR: Tabela que armazena as informações dos fornecedores cadastrados.
+cod_fornecedor: Campo do tipo inteiro que identifica cada fornecedor no sistema.
+nome_fornecedor: Campo do tipo varchar que nomeia cada fornecedor disponível no sistema.
+
+FORNECEDOR_PRODUTO: Tabela que armazena as informações referentes a qual produto cada fornecedor fornece.
+cod_fornecedor_produto: Campo do tipo inteiro que identifica a tupla contendo as informações do fornecimento de cada produto.
+fk_cod_fornecedor: Chave estrangeira do tipo inteiro que identifica qual fornecedor está fornecendo determinado produto.
+fk_cod_produto: chave estrangeira do tipo inteiro que identifica qual produto está sendo fornecido.
+
+PRODUTO: Tabela que armazena as informações referentes à produto.
+cod_produto: Campo do tipo inteiro que identifica cada produto no sistema.
+fk_cod_tipo_produto: Chave estrangeira do tipo inteiro que identifica o tipo do produto.
+preco_produto: Campo do tipo float que armazena o preco aproximado de um produto.
+nome_produto: Campo do tipo varchar que nomeia cada produto.
+
+TIPO_PRODUTO: Tabela que armazena as informações refentes ao tipo de produto.
+cod_tipo_produto: Campo do tipo inteiro que identifica o tipo de produto.
+nome_tipo_produto: Campo do tipo varchar que nomeia cada tipo de produto.
+
 
 
 ### 6	MODELO LÓGICO<br>
