@@ -55,11 +55,6 @@ O sistema “Provisões de emergência” tem como objetivo contribuir com o  pl
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 Descrição dos dados 
-    [objeto]: [descrição do objeto]
-    
-    EXEMPLO:
-    CLIENTE: Tabela que armazena as informações relativas ao cliente<br>
-    CPF: campo que armazena o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
 GRUPO_FAMILIAR: Tabela que armazena as informações referentes ao grupo familiar que determinada pessoa pertence.
 cod_grupo-familiar: Campo do tipo inteiro que é utilizado para identificar determinado grupo familiar que a pessoa está inserida.
 nome_grupo_familiar: Campo do tipo string que nomeia determinado grupo familiar.
