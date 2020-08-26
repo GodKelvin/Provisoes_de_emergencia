@@ -55,41 +55,41 @@ O sistema “Provisões de emergência” tem como objetivo contribuir com o  pl
     [Grupo02]: [Nomes dos que participaram na avaliação]
 
 #### 5.2 Descrição dos dados 
-GRUPO_FAMILIAR: Tabela que armazena as informações referentes ao grupo familiar que determinada pessoa pertence.<br>
-cod_grupo-familiar: Campo do tipo inteiro que é utilizado para identificar determinado grupo familiar que a pessoa está inserida.<br>
-nome_grupo_familiar: Campo do tipo string que nomeia determinado grupo familiar.<br>
+**GRUPO_FAMILIAR**: Tabela que armazena as informações referentes ao grupo familiar que determinada pessoa pertence.<br>
+*cod_grupo-familiar*: Campo do tipo inteiro que é utilizado para identificar determinado grupo familiar que a pessoa está inserida.<br>
+*nome_grupo_familiar*: Campo do tipo string que nomeia determinado grupo familiar.<br>
 
-PESSOA: Tabela que armazena as informações referentes à pessoa.<br>
-cod_pessoa: Campo do tipo inteiro que identifica determinada pessoa.<br>
-fk_cod_grupo_familiar: Chave estrangeira do tipo inteiro que identifica à qual grupo familiar essa pessoa está inserida.<br>
-nome_pessoa: Campo do tipo varchar utilizado para armazenar o nome de cada pessoa.<br>
-cpf: Campo do tipo varchar que armazena o número de cadastro de pessoa física de cada pessoa.<br>
-data_nascimento: Campo do tipo date que armazena a data de nascimento da pessoa.<br>
+**PESSOA**: Tabela que armazena as informações referentes à pessoa.<br>
+*cod_pessoa*: Campo do tipo inteiro que identifica determinada pessoa.<br>
+*fk_cod_grupo_familiar*: Chave estrangeira do tipo inteiro que identifica à qual grupo familiar essa pessoa está inserida.<br>
+*nome_pessoa*: Campo do tipo varchar utilizado para armazenar o nome de cada pessoa.<br>
+*cpf*: Campo do tipo varchar que armazena o número de cadastro de pessoa física de cada pessoa.<br>
+*data_nascimento*: Campo do tipo date que armazena a data de nascimento da pessoa.<br>
 
-PESSOA_CONSOME: Tabela que armazena as informações referentes ao consumo de cada pessoa.<br>
-cod_pessoa: Campo do tipo inteiro que identifica a tupla contendo as informações de consumo de cada pessoa.<br>
-fk_cod_produto: Chave estrangeira do tipo inteiro que identifca qual produto a pessoa está consumindo.<br>
-fk_cod_pessoa: Chave estrangeira do tipo inteiro que identifica qual pessoa está consumindo determinado produto.<br>
-quantidade_produto: Campo do tipo float que identificar o quanto aquela pessoa está consumindo determinado produto.<br>
+**PESSOA_CONSOME**: Tabela que armazena as informações referentes ao consumo de cada pessoa.<br>
+*cod_pessoa*: Campo do tipo inteiro que identifica a tupla contendo as informações de consumo de cada pessoa.<br>
+*fk_cod_produto*: Chave estrangeira do tipo inteiro que identifca qual produto a pessoa está consumindo.<br>
+*fk_cod_pessoa*: Chave estrangeira do tipo inteiro que identifica qual pessoa está consumindo determinado produto.<br>
+*quantidade_produto*: Campo do tipo float que identificar o quanto aquela pessoa está consumindo determinado produto.<br>
 
-FORNECEDOR: Tabela que armazena as informações dos fornecedores cadastrados.<br>
-cod_fornecedor: Campo do tipo inteiro que identifica cada fornecedor no sistema.<br>
-nome_fornecedor: Campo do tipo varchar que nomeia cada fornecedor disponível no sistema.<br>
+**FORNECEDOR**: Tabela que armazena as informações dos fornecedores cadastrados.<br>
+*cod_fornecedor*: Campo do tipo inteiro que identifica cada fornecedor no sistema.<br>
+*nome_fornecedor*: Campo do tipo varchar que nomeia cada fornecedor disponível no sistema.<br>
 
-FORNECEDOR_PRODUTO: Tabela que armazena as informações referentes a qual produto cada fornecedor fornece.<br>
-cod_fornecedor_produto: Campo do tipo inteiro que identifica a tupla contendo as informações do fornecimento de cada produto.<br>
-fk_cod_fornecedor: Chave estrangeira do tipo inteiro que identifica qual fornecedor está fornecendo determinado produto.<br>
-fk_cod_produto: chave estrangeira do tipo inteiro que identifica qual produto está sendo fornecido.
+**FORNECEDOR_PRODUTO**: Tabela que armazena as informações referentes a qual produto cada fornecedor fornece.<br>
+*cod_fornecedor_produto*: Campo do tipo inteiro que identifica a tupla contendo as informações do fornecimento de cada produto.<br>
+*fk_cod_fornecedor*: Chave estrangeira do tipo inteiro que identifica qual fornecedor está fornecendo determinado produto.<br>
+*fk_cod_produto*: chave estrangeira do tipo inteiro que identifica qual produto está sendo fornecido.
 
-PRODUTO: Tabela que armazena as informações referentes à produto.<br>
-cod_produto: Campo do tipo inteiro que identifica cada produto no sistema.<br>
-fk_cod_tipo_produto: Chave estrangeira do tipo inteiro que identifica o tipo do produto.<br>
-preco_produto: Campo do tipo float que armazena o preco aproximado de um produto.<br>
-nome_produto: Campo do tipo varchar que nomeia cada produto.<br>
+**PRODUTO**: Tabela que armazena as informações referentes à produto.<br>
+*cod_produto*: Campo do tipo inteiro que identifica cada produto no sistema.<br>
+*fk_cod_tipo_produto*: Chave estrangeira do tipo inteiro que identifica o tipo do produto.<br>
+*preco_produto*: Campo do tipo float que armazena o preco aproximado de um produto.<br>
+*nome_produto*: Campo do tipo varchar que nomeia cada produto.<br>
 
-TIPO_PRODUTO: Tabela que armazena as informações refentes ao tipo de produto.<br>
-cod_tipo_produto: Campo do tipo inteiro que identifica o tipo de produto.<br>
-nome_tipo_produto: Campo do tipo varchar que nomeia cada tipo de produto.<br>
+**TIPO_PRODUTO**: Tabela que armazena as informações refentes ao tipo de produto.<br>
+*cod_tipo_produto*: Campo do tipo inteiro que identifica o tipo de produto.<br>
+*nome_tipo_produto*: Campo do tipo varchar que nomeia cada tipo de produto.<br>
 
 
 
