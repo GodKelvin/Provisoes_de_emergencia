@@ -29,15 +29,16 @@ O sistema “Provisões de emergência” conterá as informações aqui detalha
     b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
     
 > A Empresa DevCom precisa inicialmente dos seguintes relatórios:
-* Relatório que mostre o nome de cada supervisor(a) e a quantidade de empregados supervisionados.
-* Relatório relativo aos os supervisores e supervisionados. O resultado deve conter o nome do supervisor e nome do supervisionado além da quantidade total de horas que cada supervisionado tem alocada aos projetos existentes na empresa.
-* Relatorio que mostre para cada linha obtida o nome do departamento, o valor individual de cada salario existente no  departamento e a média geral de salarios dentre todos os empregados. Os resultados devem ser apresentados ordenados por departamento.
-* Relatório que mostre as informações relacionadas a todos empregados de empresa (sem excluir ninguém). As linhas resultantes devem conter informações sobre: rg, nome, salario do empregado, data de início do salario atual, nomes dos projetos que participa, quantidade de horas e localização nos referidos projetos, numero e nome dos departamentos aos quais está alocado, informações do historico de salário como inicio, fim, e valores de salarios antigos que foram inclusos na referida tabela (caso possuam informações na mesma), além de todas informações relativas aos dependentes. 
->> ##### Observações: <br> a) perceba que este relatório pode conter linhas com alguns dados repetidos (mas não todos). <br>  b) para os empregados que não possuirem alguma destas informações o valor no registro deve aparecer sem informação/nulo. 
-* Relatório que obtenha a frequencia absoluta e frequencia relativa da quantidade de cpfs únicos no relatório anterior. Apresente os resultados ordenados de forma decrescente pela frequencia relativa.
+* Relatório listando todos os produtos (bens de consumo) de determinado grupo familiar.
+* Relatório listando o preço (individual e total) dos produtos de cada grupo familiar.
+* Relatório listando a quantidade de cada produto necessário de cada grupo familiar.
+* Relatório listando quais produtos estão disponíveis para ser entregues por determinado fornecedor.
+* Relatório listando qual tipo de produto está sendo mais requisitado nos grupos familiares.
+* Relatório listando qual produto está sendo mais requisitado nos grupos familiares.
+* Relatório listando as pessoas de cada grupo familiar.
+* Relatório listando quais produtos cada pessoa está consumindo.
+* Relatório listando todos os produtos cadastrados ordenando pelo tipo.
 
- 
- 
 #### 4.3 TABELA DE DADOS DO SISTEMA:
 [Tabela contendo exemplos de dados do sistema "Provisões de Emergência" (Arquivos .xlsx)](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/arquivos/Exemplo_de_tabelas_Provisoes_de_Emergencia.xlsx "Tabela - Provisões de Emergência")
     
