@@ -9,7 +9,6 @@ Trabalho desenvolvido durante a disciplina de BD1
 # Sumário
 
 ### 1. COMPONENTES<br>
-Integrantes do grupo<br>
 Kelvin Lehrback Guilherme<br>
 
 ### 2.INTRODUÇÃO E MOTIVAÇÃO<br>
