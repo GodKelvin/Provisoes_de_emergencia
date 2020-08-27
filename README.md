@@ -45,7 +45,7 @@ O sistema “Provisões de emergência” tem como objetivo contribuir com o  pl
     
     
 ### 5.MODELO CONCEITUAL<br>    
-![Alt text](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/images/Conceitual_v3.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/images/modelo_conceitual.png)
     
     
         
@@ -94,7 +94,7 @@ O sistema “Provisões de emergência” tem como objetivo contribuir com o  pl
 
 
 ### 6	MODELO LÓGICO<br>
-![Alt text](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/images/modelo_logico.png?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/images/modelo_logico.png)
 
 ### 7	MODELO FÍSICO<br>
 ```
