@@ -25,10 +25,9 @@ O sistema “Provisões de emergência” conterá as informações aqui detalha
 [Protótipo de telas feito para o sistema "Provisoes de Emergencia" (Arquivo .PDF)](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/arquivos/Prototipo_telas.pdf "Provisões de Emergência")
 
 #### 4.2 QUAIS PERGUNTAS PODEM SER RESPONDIDAS COM O SISTEMA PROPOSTO?
-    a) O sistema proposto poderá fornecer quais tipos de relatórios e informaçes? 
-    b) Crie uma lista com os 5 principais relatórios que poderão ser obtidos por meio do sistema proposto!
-    
-> A Empresa DevCom precisa inicialmente dos seguintes relatórios:
+
+**O Sistema "Provisões de Emergência" precisa inicialmente dos seguintes relatórios:**
+
 * Relatório listando todos os produtos (bens de consumo) de determinado grupo familiar.
 * Relatório listando o preço (individual e total) dos produtos de cada grupo familiar.
 * Relatório listando a quantidade de cada produto necessário de cada grupo familiar.
