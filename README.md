@@ -48,10 +48,12 @@ O sistema “Provisões de emergência” conterá as informações aqui detalha
     
 #### 5.1 Validação do Modelo Conceitual
 **PedidON:** Thiago da Costa Freitas, Eduarda Simões<br>
-Observações feitas pelos integrantes: Se o relaciomento "Consome" não deveria ser uma tabela associativa.<br>
+Observações feitas pelos integrantes: *Se o relaciomento "Consome" não deveria ser uma tabela associativa.*<br>
 
 **ATVGen:** Matheus Costa<br>
-Observações feitas pelos integrantes: Não precisaria do endereço do fornecedor e da pessoa? Incluindo assim, algo com Geo localização.<br>
+Observações feitas pelos integrantes: *Não precisaria do endereço do fornecedor e da pessoa? Incluindo assim, algo com geolocalização.*<br>
+
+> Observações em análise.
 
 #### 5.2 Descrição dos dados 
 **GRUPO_FAMILIAR**: Tabela que armazena as informações referentes ao grupo familiar que determinada pessoa pertence.<br>
