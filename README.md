@@ -46,11 +46,12 @@ O sistema “Provisões de emergência” conterá as informações aqui detalha
 ![Alt text](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/images/modelo_conceitual.png)
     
     
-        
-    
 #### 5.1 Validação do Modelo Conceitual
-    [Grupo01]: [Nomes dos que participaram na avaliação]
-    [Grupo02]: [Nomes dos que participaram na avaliação]
+**PedidON:** Thiago da Costa Freitas, Eduarda Simões
+Observações feitas pelos integrantes: Se o relaciomento "Consome" não deveria ser uma tabela associativa.
+
+**ATVGen:** Matheus Costa
+Observações feitas pelos integrantes: Não precisaria do endereço do fornecedor e da pessoa? Incluindo assim, algo com Geo localização. 
 
 #### 5.2 Descrição dos dados 
 **GRUPO_FAMILIAR**: Tabela que armazena as informações referentes ao grupo familiar que determinada pessoa pertence.<br>
