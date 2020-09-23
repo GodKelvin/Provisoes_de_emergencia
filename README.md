@@ -172,6 +172,7 @@ add foreign key(fk_cod_tipo_produto) references TIPO_PRODUTO(cod_tipo_produto);
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/arquivos/Trabalho_bd1_item_92_Kelvin_Lehrback.ipynb)
 
 ### 10 RELATÓRIOS E GRÁFICOS
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/arquivos/BD1_Relatorios_Provisoes_de_Emergencia.ipynb)
 
 #### a) análises e resultados provenientes do banco de dados desenvolvido (usar modelo disponível)
 #### b) link com exemplo de relatórios será disponiblizado pelo professor no AVA
