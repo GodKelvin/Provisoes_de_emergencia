@@ -176,8 +176,6 @@ add foreign key(fk_cod_tipo_produto) references TIPO_PRODUTO(cod_tipo_produto);
     
 ### 11	AJUSTES DA DOCUMENTAÇÃO, CRIAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL <br>
 [Slides da Apresentação - Modelo Pecha Kucha](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/arquivos/Apresentacao_Provisoes_de_Emergencia.pdf)
-#### a) Modelo (pecha kucha)<br>
-#### b) Tempo de apresentação 6:40 
 
 
 
