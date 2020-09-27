@@ -175,7 +175,7 @@ add foreign key(fk_cod_tipo_produto) references TIPO_PRODUTO(cod_tipo_produto);
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/arquivos/BD1_Relatorios_Provisoes_de_Emergencia.ipynb)
     
 ### 11	AJUSTES DA DOCUMENTAÇÃO, CRIAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL <br>
-[Slides da Apresentação - Modelo Pecha Kucha](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/arquivos/Apresentacao_Provisoes_de_Emergencia.pdf)
+[Slides da Apresentação - Modelo Pecha Kucha](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/arquivos/Apresentacao_Provisoes_de_Emergencia.pdf) <br>
 [Apresentação em vídeo](https://youtu.be/ZfTimrWkiVQ)
 
 
