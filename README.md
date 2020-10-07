@@ -181,14 +181,14 @@ add foreign key(fk_cod_tipo_produto) references TIPO_PRODUTO(cod_tipo_produto);
 ### Utilizando banco de dados NoSQL
 
 #### MongoDB
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-(https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/arquivos/MongoDB.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/arquivos/MongoDB.ipynb)
+<br>
 [Slides de Apresentação - MongoDB](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/arquivos/Apresentacao_mongoDB.pdf)
 
 
 #### ArangoDB
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]
-(https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/arquivos/ArangoDB.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/arquivos/ArangoDB.ipynb)
+<br>
 [Slides de Apresentação - ArangoDB](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/arquivos/Apresentacao_arangoDB.pdf)
 
 #### Comparação entre os dois bancos NoSQL
