@@ -4,7 +4,7 @@
 	<br>
 	<i>Artista: Kazuki Takahashi</i>
 </div>
-Trabalho desenvolvido durante a disciplina de BD1
+Trabalho desenvolvido durante a disciplina de Banco de Dados 1 (2020/1) do curso Bacharelado em Sistemas de Informação (BSI) do IFES - Campus Serra.
 
 # Sumário
 
@@ -176,7 +176,6 @@ add foreign key(fk_cod_tipo_produto) references TIPO_PRODUTO(cod_tipo_produto);
     
 ### 11	AJUSTES DA DOCUMENTAÇÃO, CRIAÇÃO DOS SLIDES E VÍDEO PARA APRESENTAÇAO FINAL <br>
 [Slides da Apresentação - Modelo Pecha Kucha](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/arquivos/Apresentacao_Provisoes_de_Emergencia.pdf) <br>
-[Apresentação em vídeo](https://youtu.be/ZfTimrWkiVQ)
 
 ### 12 Utilizando banco de dados NoSQL
 
@@ -193,6 +192,15 @@ add foreign key(fk_cod_tipo_produto) references TIPO_PRODUTO(cod_tipo_produto);
 
 #### Comparação entre os dois bancos NoSQL
 [Slides de Apresentação - Comparação entre os dois bancos NoSQL](https://github.com/GodKelvin/Provisoes_de_emergencia/blob/master/arquivos/MongoDB_vs_ArangoDB.pdf)
+
+
+### Docente da Disciplina
+Moises Savedra Omena
+
+### Observações - Nota
+Não apenas esse projeto recebeu nota máxima mas como também a soma das notas do semestre inteiro desse discente. <br>
+De 0 a 100, nota 100.
+
 
 
 
